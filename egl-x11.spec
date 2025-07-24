@@ -28,6 +28,7 @@ BuildRequires:	pkgconfig(gbm)
 BuildRequires:	pkgconfig(xcb-dri3)
 BuildRequires:	pkgconfig(xcb-present)
 BuildRequires:	pkgconfig(xcb)
+BuildRequires:	pkgconfig(egl)
 
 %if %{with compat32}
 BuildRequires:	devel(libX11-xcb)
@@ -40,6 +41,7 @@ BuildRequires:	devel(libgbm)
 BuildRequires:	devel(libxcb-dri3)
 BuildRequires:	devel(libxcb-present)
 BuildRequires:	devel(libxcb)
+BuildRequires:	devel(libEGL)
 %endif
 
 Requires:	%{libname} >= %{EVRD}
