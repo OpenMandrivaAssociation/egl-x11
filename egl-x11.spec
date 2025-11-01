@@ -9,7 +9,7 @@
 %endif
 
 Name:		egl-x11
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 Group:		System/Libraries
 Summary:	X11 EGL External Platform library for nvidia GPUs
