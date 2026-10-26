@@ -9,7 +9,7 @@
 %endif
 
 Name:		egl-x11
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 Group:		System/Libraries
 Summary:	X11 EGL External Platform library for nvidia GPUs
@@ -42,6 +42,11 @@ BuildRequires:	devel(libxcb-dri3)
 BuildRequires:	devel(libxcb-present)
 BuildRequires:	devel(libxcb)
 BuildRequires:	devel(libEGL)
+BuildRequires:	cross-i686-openmandriva-linux-gnu-binutils
+BuildRequires:	cross-i686-openmandriva-linux-gnu-libc
+BuildRequires:	cross-i686-openmandriva-linux-gnu-gcc
+BuildRequires:	cross-i686-openmandriva-linux-gnu-kernel-headers
+BuildRequires:	cross-i686-openmandriva-linux-gnu-clang
 %endif
 
 Requires:	%{libname} >= %{EVRD}
